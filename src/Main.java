@@ -11,12 +11,12 @@ public class Main {
         //Задача 2
         int clientDeviceYear=2015;
         if(clientOS == 0 && clientDeviceYear < 2015){
-            System.out.println("Установите облегченную версию для iOS по ссылке");
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }else if(clientOS == 0 && clientDeviceYear >= 2015){
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
         if (clientOS == 1 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию для Android по ссылке");
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else
             System.out.println("Установите версию приложения для Android по ссылке");
 
